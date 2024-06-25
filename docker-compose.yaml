@@ -1,8 +1,8 @@
 name: expense
 networks:
-  defaults:
+  default:
     name: expense
-  services:
+services:
     mysql:
       image: mysql:v1.0.0
       container_name: mysql # --name mysql
